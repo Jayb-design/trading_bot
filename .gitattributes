@@ -1,5 +1,4 @@
 # Set the default behavior for all files to be treated as text
-* text=auto 
 ├── main.py
 ├── strategy.py
 ├── market_data.py
