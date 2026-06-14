@@ -1,6 +1,7 @@
 import websocket
 import json
 
+from market_data import add_price, get_prices
 from strategy import get_signal
 from trade_manager import execute_trade
 from config import SYMBOL
