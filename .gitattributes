@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Set the default behavior for all files to be treated as text
+* text=auto 
+├── main.py
+├── strategy.py
+├── market_data.py
+├── trade_manager.py
+├── config.py
+└── logs
