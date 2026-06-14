@@ -1,19 +1,15 @@
 # trade_manager.py
 
-import websocket
-import json
-
-from market_data import get_prices
-from config import SYMBOL
-
-
 def execute_trade(signal):
     """
-    Execute a trade based on the signal.
+    Handle trading signals.
     """
 
     if signal == "BUY":
-        buy()
+        print("BUY signal detected")
 
     elif signal == "SELL":
-        sell()
+        print("SELL signal detected")
+
+    else:
+        print("Waiting for a trading opportunity")
